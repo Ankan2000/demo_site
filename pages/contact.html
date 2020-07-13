@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/logo.png" alt="logo" width="50px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="../index.html"
+              >Home </span></a
+            >
+            <a class="nav-item nav-link" href="./about.html">About Us</a>
+            <a class="nav-item nav-link" href="./pricing.html">Donate Us</a>
+            <a class="nav-item nav-link  active" href="#">Contact Us</a>
+            <a class="nav-item nav-link" href="./mission.html">Our Mission</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row mt-4">
+          <div class="col-md-8 offset-md-2">
+            <div class="card shadow mb-2 bg-white rounded">
+                <div class="card-header">
+                    <h4>
+                        Contact Us!
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="name">Your only name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="textArea">Ask us your query </label>
+                            <textarea class="form-control" id="textArea" rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <footer class="row justify-content-center bg-primary text-light py-3 mt-3 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptates?</footer>
+    </div>
+  </body>
+</html>
